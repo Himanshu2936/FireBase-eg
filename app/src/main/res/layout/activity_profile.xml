@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.honey.firebaseeg.ProfileActivity">
+
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Age"
+        android:layout_above="@+id/logout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="140dp"
+        android:autoText="true"
+        android:hint="age" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:layout_above="@+id/Age"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:hint="name" />
+
+    <TextView
+        android:text="Enter your Name and Age"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/Done" />
+
+</RelativeLayout>

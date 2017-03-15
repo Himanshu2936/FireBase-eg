@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "27631608416",
+    "firebase_url": "https://fir-eg-ca49b.firebaseio.com",
+    "project_id": "fir-eg-ca49b",
+    "storage_bucket": "fir-eg-ca49b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27631608416:android:bc860b63e7edbf77",
+        "android_client_info": {
+          "package_name": "com.honey.firebaseeg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27631608416-ap4kbpnelq53inel2i7pinkpcbb95e3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_674K0HLE16L1i_mtmL42nQGudzuAstU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
